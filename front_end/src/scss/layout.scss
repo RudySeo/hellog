@@ -55,3 +55,45 @@
     text-align: center;
   }
 }
+
+// table
+.table {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_table {
+  width: 49%;
+  // border: 1px solid #444444;
+  border-collapse: collapse;
+  border: 1px solid #000000 !important;
+  border-radius: 30px;
+  overflow: hidden;
+  text-align: center;
+}
+th,
+td {
+  padding: 15px;
+  background: #ddd;
+  border: none;
+  border-bottom: 2px solid white;
+}
+
+// padding
+
+.post__padding {
+  padding: 50px 0;
+}
+
+.form_padding {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.input_padding {
+  padding: 15px 0;
+}
+.input_padding > input {
+  width: 200px;
+  height: 25px;
+}
