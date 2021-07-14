@@ -28,10 +28,28 @@ const Header = (props) => {
       <div className="header__inner">
         <div className="header__nav">
           <ul>
-            <li>운동등록</li>
-            <li>식단등록</li>
-            <li>회원가입</li>
-            <li>로그인</li>
+            <NavLink to="/workout" activeClassName="on">
+              <li>운동 등록</li>
+            </NavLink>
+            <NavLink to="/meal" activeClassName="on">
+              <li>식단 등록</li>
+            </NavLink>
+            <NavLink to="/total" activeClassName="on">
+              <li>확인 하기</li>
+            </NavLink>
+
+            <NavLink to="/register" activeClassName="on">
+              {!isLoggined && <li>회원가입</li>}
+            </NavLink>
+            {isLoggined ? (
+              <li>
+                <button onClick={logoutHandler}>로그아웃</button>
+              </li>
+            ) : (
+              <NavLink to="/login" activeClassName="on">
+                <li>로그인</li>
+              </NavLink>
+            )}
           </ul>
         </div>
       </div>
