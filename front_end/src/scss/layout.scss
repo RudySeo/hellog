@@ -1,0 +1,57 @@
+@import "./reset.css";
+@import "./variables.scss";
+
+// header
+.header {
+  z-index: $maxZidex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: $header_bg;
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  &__logo {
+    padding: 20px 0;
+    text-align: center;
+  }
+  &__inner {
+    background: $inner_bg;
+  }
+  &__nav {
+    padding: 10px 0;
+  }
+  &__nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  &__nav ul a {
+    text-decoration: none;
+  }
+  &__nav ul li {
+    margin-right: 15px;
+    color: $nav_li_color;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  &__nav ul li:hover {
+    color: $nav_li_on_color;
+  }
+  &__nav ul a.on li {
+    color: $nav_li_on_color;
+  }
+}
+// home
+.home {
+  &__logo {
+    text-align: center;
+    padding: 300px 0 100px 0;
+  }
+  &__box h1 {
+    font-size: $title_font;
+    text-align: center;
+  }
+}
