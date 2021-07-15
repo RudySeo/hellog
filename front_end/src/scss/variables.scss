@@ -1,0 +1,32 @@
+// header
+$nav_li_color: #fff;
+$nav_li_on_color: red;
+$inner_bg: #4f6b68;
+$header_bg: #9dd5cf;
+$maxZidex: 900;
+$modalZidex: 999;
+
+// typo
+$title: 30px;
+$content: 18px;
+$caption: 14px;
+// home
+$logo_padding: 200px;
+$title_font: 30px;
+
+$section_padding: 200px 0;
+$create_workOut_padding: 150px 0;
+
+h1 {
+  font-size: $title;
+}
+h2 {
+  font-size: $content;
+  margin-bottom: 20px;
+}
+li,
+th {
+  font-size: $content;
+  font-weight: bold;
+}
+//

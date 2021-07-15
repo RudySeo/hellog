@@ -1,0 +1,22 @@
+// util
+// @import "./base.scss";
+@import "./reset.css";
+@import "./variables.scss";
+
+// common
+@import "./common/button.scss";
+@import "./common/check_box.scss";
+@import "./common/input.scss";
+@import "./common/modal.scss";
+@import "./common/total_list.scss";
+@import "./layout.scss";
+
+// template
+@import "./common/data_list.scss";
+@import "./create_form.scss";
+@import "./total.scss";
+@import "./regiter.scss";
+
+.form {
+  padding: 200px;
+}

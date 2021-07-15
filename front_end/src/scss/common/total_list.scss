@@ -1,0 +1,31 @@
+$list__hour_color: red;
+
+.total__list {
+  width: 200px;
+  border: none;
+  border-radius: 50%;
+  height: 200px;
+  background: #dcfffa;
+  margin-right: 60px;
+
+  &__wrap {
+    text-align: center;
+    padding: 50px 0;
+  }
+  &__hour {
+    color: $list__hour_color;
+  }
+  &__turm {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  &__items li {
+    margin-bottom: 30px;
+  }
+  &__items li:last-child {
+    margin-bottom: 0px;
+  }
+  &__hour {
+    font-size: 25px;
+  }
+}

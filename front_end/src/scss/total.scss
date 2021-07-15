@@ -1,0 +1,48 @@
+.total {
+  padding: 200px 0;
+
+  &__wrapper {
+    padding: 100px 0;
+  }
+  &__wrap {
+    display: flex;
+    justify-content: center;
+  }
+  &__wrap2 {
+    border: 1px solid #000;
+  }
+  &__box {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    font-size: 20px;
+  }
+  &__h2 {
+    text-decoration: underline;
+    cursor: pointer;
+    display: block;
+    color: #000;
+  }
+  &__h2:hover {
+    color: blue;
+  }
+}
+
+.total__wrap2 {
+  border: none;
+  &__table {
+    border: 1px solid #000000 !important;
+    border-radius: 30px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+  &__table th,
+  td {
+    padding: 15px;
+    background: #ddd;
+    border: none;
+    border-bottom: 2px solid white;
+  }
+}

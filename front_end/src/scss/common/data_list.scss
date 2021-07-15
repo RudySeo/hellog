@@ -1,0 +1,21 @@
+.data_list {
+  &__name {
+    text-align: center;
+    padding-top: 20px;
+  }
+  &__total {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+
+    li {
+      border: 1px solid #000;
+      height: 100px;
+      width: 180px;
+      line-height: 100px;
+      margin-right: 10px;
+      text-align: center;
+    }
+  }
+}

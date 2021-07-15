@@ -1,0 +1,24 @@
+.radio {
+  display: inline-block;
+  cursor: pointer;
+
+  &__input {
+    display: none;
+  }
+
+  &__value {
+    position: relative;
+    display: inline-block;
+    background: #ccc;
+    padding: 15px 30px;
+    color: #fff;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    transition: 0.5s;
+  }
+
+  &__input:checked + &__value {
+    background: red;
+    display: block;
+  }
+}
