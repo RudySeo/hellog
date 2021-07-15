@@ -1,0 +1,12 @@
+$btn_bg: #d3e2f4;
+$btn_font: 30px;
+.btn {
+  width: 180px;
+  height: 44px;
+  border: none;
+  border-radius: 20px;
+  font-size: $btn_font;
+  background: $btn_bg;
+  cursor: pointer;
+  font-size: 20px;
+}
