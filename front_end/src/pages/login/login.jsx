@@ -10,9 +10,19 @@ const Login = (e) => {
   const dispatch = useDispatch();
   const { form, handleChange, handleSubmit, error } = Useform();
 
+  const onLoginSumit = (e) => {
+    e.preventDefault();
+    let userInfo = {
+      user_id: form.user_id,
+      password: form.password,
+    };
+    handleSubmit(e);
+    dispatch(login(userInfo));
+  };
+
   return (
     <section className="login">
-      <form>
+      <form onSubmit={onLoginSumit}>
         <h1 className="login__title">LOGIN</h1>
         <Postinput
           type={"id"}
