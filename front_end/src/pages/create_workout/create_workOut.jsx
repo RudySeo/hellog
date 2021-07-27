@@ -19,9 +19,6 @@ const CreateWorkOut = (props) => {
         hour: form.hour,
         workout_calorie: form.workoutCalorie,
       };
-      // if (handleSubmit(e) === false) {
-      //   return;
-      // }
 
       await axios.post("http://localhost:3601/api/workout", infor, config);
       history.push("/total");

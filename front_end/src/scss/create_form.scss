@@ -1,0 +1,42 @@
+@import "./variables.scss";
+
+.section_padding {
+  padding: $section_padding;
+}
+
+.create_workOut {
+  padding: $create_workOut_padding;
+  &__title {
+    font-size: 30px;
+  }
+  &__from {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__button {
+    text-align: center;
+    padding: 20px 0;
+  }
+}
+// post meals
+.post__meals {
+  padding: 50px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 0;
+  &__checkBox {
+    padding: 30px 0;
+  }
+  &__checkBox .radio {
+    margin-right: 15px;
+  }
+  &__checkBox .radio:last-child {
+    margin-right: 0;
+  }
+}

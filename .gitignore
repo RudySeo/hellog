@@ -1,0 +1,11 @@
+.DS_Store
+./back/node_modules
+./front/node_modules
+
+
+/*/node_modules
+/*/.env
+/*/*.log
+/*/.eslintcache
+/*/build
+dist/*

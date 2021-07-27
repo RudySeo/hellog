@@ -24,8 +24,7 @@ const Register = (props) => {
         email: form.email,
         name: form.name,
       };
-      if (handleSubmit(e, "register") === false) {
-        console.log("false", "확인!!");
+      if (!handleSubmit(e, "register")) {
         return;
       }
       await axios.post("http://localhost:3601/api/users", registerInfo, config);
