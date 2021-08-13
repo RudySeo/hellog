@@ -50,14 +50,6 @@ $ yarn start
 ------------------
 -------
 ### * API 명세
-<<<<<<< HEAD
-----
-## References
-* 페이지기획서 
-* 기능 설명서
-* DB 명세서
-* API 명세서
-=======
  * user
     * 유저등록
       * POST api/users
