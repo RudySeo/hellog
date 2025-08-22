@@ -89,4 +89,4 @@ $ yarn start
 * [기능 설명서](https://www.notion.so/97a1417317de469da0d3289e54ca17ee)
 * DB 명세서
 * [API 명세서](https://www.notion.so/API-d8e57069feae44d299991c6c65a71566) 
->>>>>>> adafaf06a40f8701b4fd3a51df8ea23c28954a67
+
